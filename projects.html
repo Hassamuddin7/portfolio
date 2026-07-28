@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | Hassam Uddin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Hassam</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link active-link">Projects</a></li>
+                    <li class="nav__item"><a href="certificates.html" class="nav__link">Certificates</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close"><i class='bx bx-x'></i></div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle"><i class='bx bx-grid-alt'></i></div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="work section">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">All Projects</h2>
+
+            <div class="work__container container grid" id="projects-container"></div>
+
+            <div style="margin-top: 2.5rem; text-align: center;">
+                <a href="index.html" class="button"><i class='bx bx-left-arrow-alt'></i> Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <span class="footer__copy">&#169; Hassam Uddin. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <div id="modal-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

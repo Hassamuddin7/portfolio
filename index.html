@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassam Uddin | Portfolio</title>
+
+    <meta name="description" content="Portfolio of Hassam Uddin - Electronics Engineering Graduate.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Hassam</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close"><i class='bx bx-x'></i></div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle"><i class='bx bx-grid-alt'></i></div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hey there, I'm</span>
+                    <h1 class="home__name">Hassam Uddin</h1>
+                    <h2 class="home__profession">Electronics Engineering Graduate</h2>
+                    <h3 class="home__subtitle">Building practical software and AI solutions from concept to completion.
+                    </h3>
+
+                    <div class="home__buttons">
+                        <a href="assets/files/resume.pdf" download class="button button--ghost">Download Resume</a>
+                        <a href="#about" class="button">About Me</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/profile.png" alt="Hassam Uddin" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/hassamuddin7" target="_blank" rel="noopener noreferrer"
+                        class="home__social-link"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/Hassamuddin7" target="_blank" rel="noopener noreferrer"
+                        class="home__social-link"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:hassamuddinrajput420@gmail.com" class="home__social-link"><i
+                            class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <span class="section__subtitle">A quick introduction</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="assets/img/profile.png" alt="Hassam Uddin" class="about__img">
+                </div>
+
+                <div class="about__data">
+                    <p class="about__description">
+                        I'm Hassam Uddin, an Electronics Engineering graduate with a strong interest in software
+                        development, artificial intelligence, and machine learning. I enjoy transforming ideas into
+                        practical applications while continuously learning new technologies and solving real-world
+                        problems through code.
+                    </p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="work section" id="projects">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Featured Projects</h2>
+
+            <div class="work__container container grid" id="projects-container" data-limit="4"></div>
+
+            <div class="work__more" style="text-align: center; margin-top: 2.5rem;">
+                <a href="projects.html" class="button">Show All Projects <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section class="work section" id="certificates">
+            <span class="section__subtitle">My Credentials</span>
+            <h2 class="section__title">Certificates</h2>
+
+            <div class="work__container container grid" id="certificates-container" data-limit="2"></div>
+
+            <div class="work__more" style="text-align: center; margin-top: 2.5rem;">
+                <a href="certificates.html" class="button">Show All Certificates <i
+                        class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in Touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+
+                    <div class="contact__card">
+                        <i class='bx bx-mail-send contact__card-icon'></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">hassamuddinrajput420@gmail.com</span>
+                        <a href="mailto:hassamuddinrajput420@gmail.com" class="contact__button">Write Me <i
+                                class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class='bx bxl-linkedin contact__card-icon'></i>
+                        <h3 class="contact__card-title">LinkedIn</h3>
+                        <span class="contact__card-data">Hassam Uddin</span>
+                        <a href="https://linkedin.com/in/hassamuddin7" target="_blank" rel="noopener noreferrer"
+                            class="contact__button">Connect <i
+                                class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class='bx bxl-github contact__card-icon'></i>
+                        <h3 class="contact__card-title">GitHub</h3>
+                        <span class="contact__card-data">Hassamuddin7</span>
+                        <a href="https://github.com/Hassamuddin7" target="_blank" rel="noopener noreferrer"
+                            class="contact__button">Explore <i
+                                class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <span class="footer__copy">&#169; Hassam Uddin. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Dynamic Modal Insertion Point -->
+    <div id="modal-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

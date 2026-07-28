@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": "projModal1",
+            "title": "AI Disease Prediction System",
+            "description": "Machine learning application for predicting diseases using health data.",
+            "fullDetails": "An intelligent healthcare application that applies machine learning algorithms to analyze patient symptoms and predict possible diseases.",
+            "image": "assets/img/ai-disease.png",
+            "github": "https://github.com/Hassamuddin7/AI-Disease-Prediction-System"
+        },
+        {
+            "id": "projModal2",
+            "title": "Jarvis Voice Assistant",
+            "description": "Python-based desktop voice assistant for automation and task handling.",
+            "fullDetails": "A Python desktop voice assistant capable of executing voice commands, opening applications, searching the web, and automating desktop tasks.",
+            "image": "assets/img/jarvis.png",
+            "github": "https://github.com/Hassamuddin7/Jarvis-Voice-Assistant"
+        },
+        {
+            "id": "projModal3",
+            "title": "School Management System",
+            "description": "Desktop application for managing student records and administration.",
+            "fullDetails": "A desktop application developed to organize student records, academic information, and administrative operations.",
+            "image": "assets/img/school-management.png",
+            "github": "https://github.com/Hassamuddin7/School-Management-System"
+        },
+        {
+            "id": "projModal4",
+            "title": "Environmental Sound Recognition",
+            "description": "FYP: AI sound recognition system assisting hearing-impaired users.",
+            "fullDetails": "Final Year Project focused on recognizing environmental sounds using AI and machine learning to assist hearing-impaired users.",
+            "image": "assets/img/environmental-sound.png",
+            "github": ""
+        },
+        {
+            "id": "projModal5",
+            "title": "Smart Voting System",
+            "description": "A secure and efficient system designed for reliable, transparent election management.",
+            "fullDetails": "An automated smart voting system developed to ensure secure, transparent, and streamlined voting operations. Features include user authentication, duplicate vote prevention, and real-time result tabulation.",
+            "image": "assets/img/smart-voting-system.png",
+            "github": "https://github.com/Hassamuddin7/SMART-VOTING-SYSTEM"
+        }
+    ],
+    "certificates": [
+        {
+            "id": "certModal1",
+            "title": "Accenture Data Analytics & Visualization",
+            "description": "Forage Virtual Experience Program covering data analytics and insights.",
+            "fullDetails": "Completed the Accenture Data Analytics & Visualization Virtual Experience Program through Forage, focusing on practical business analytics, data visualization, storytelling, and data-driven decision-making.",
+            "image": "assets/img/certificate1.png"
+        },
+        {
+            "id": "certModal2",
+            "title": "HP LIFE – Data Science & Analytics",
+            "description": "Practical training in data science fundamentals and analytics.",
+            "fullDetails": "Successfully completed the HP LIFE Data Science & Analytics course, covering data analysis, visualization, business insights, and the fundamentals of data-driven decision-making.",
+            "image": "assets/img/certificate2.png"
+        }
+    ]
+}
