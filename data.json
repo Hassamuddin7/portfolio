@@ -14,7 +14,7 @@
             "description": "A comprehensive database management application for student enrollment, attendance tracking, and grade reports.",
             "fullDetails": "A comprehensive database management application built to handle student enrollment records, attendance tracking, and automated grade reports.",
             "image": "assets/img/school-management.png",
-            "github": "https://github.com/Hassamuddin7"
+            "github": "https://github.com/Hassamuddin7/School-Management-System"
         },
         {
             "id": "project-3",
@@ -22,7 +22,7 @@
             "description": "An intelligent predictive model built using machine learning to classify health data and detect potential conditions.",
             "image": "assets/img/ai-disease.png",
             "fullDetails": "An intelligent predictive model built using Python, Scikit-learn, and machine learning algorithms to process medical data and classify health indicators.",
-            "github": "https://github.com/Hassamuddin7"
+            "github": "https://github.com/Hassamuddin7/AI-Disease-Prediction-System"
         },
         {
             "id": "project-4",
@@ -30,7 +30,7 @@
             "description": "A virtual desktop assistant that automates daily computing tasks using speech recognition and natural language processing.",
             "fullDetails": "A virtual desktop assistant that automates daily computer operations using Python speech recognition libraries and system automation scripts.",
             "image": "assets/img/jarvis.png",
-            "github": "https://github.com/Hassamuddin7"
+            "github": "https://github.com/Hassamuddin7/Jarvis-Voice-Assistant"
         }
     ],
     "hardwareProjects": [
