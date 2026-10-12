@@ -23,15 +23,20 @@ async function loadPortfolioData() {
         const response = await fetch('data.json');
         const data = await response.json();
 
-        const projContainer = document.getElementById('projects-container');
+        // Containers
+        const projContainer = document.getElementById('projects-container'); // Used on Home
+        const softwareContainer = document.getElementById('software-projects-container'); // Used on Projects page
+        const hardwareContainer = document.getElementById('hardware-projects-container'); // Used on Projects page
         const certContainer = document.getElementById('certificates-container');
         const modalContainer = document.getElementById('modal-container');
 
         let modalsHTML = '';
 
+        // 1. Render Home Page Featured Projects (combines both or uses main list)
         if (projContainer) {
-            const limit = projContainer.dataset.limit ? parseInt(projContainer.dataset.limit) : data.projects.length;
-            const items = data.projects.slice(0, limit);
+            const allProjects = [...(data.softwareProjects || []), ...(data.hardwareProjects || [])];
+            const limit = projContainer.dataset.limit ? parseInt(projContainer.dataset.limit) : allProjects.length;
+            const items = allProjects.slice(0, limit);
 
             projContainer.innerHTML = items.map(item => `
                 <article class="work__card" onclick="openModal('${item.id}')" style="cursor: pointer;">
@@ -45,7 +50,36 @@ async function loadPortfolioData() {
             items.forEach(item => modalsHTML += generateModalHTML(item, true));
         }
 
-        if (certContainer) {
+        // 2. Render Software Projects (on projects.html)
+        if (softwareContainer && data.softwareProjects) {
+            softwareContainer.innerHTML = data.softwareProjects.map(item => `
+                <article class="work__card" onclick="openModal('${item.id}')" style="cursor: pointer;">
+                    <img src="${item.image}" alt="${item.title}" class="work__img">
+                    <h3 class="work__title">${item.title}</h3>
+                    <p class="work__description">${item.description}</p>
+                    <span class="work__button">View Details <i class='bx bx-right-arrow-alt work__icon'></i></span>
+                </article>
+            `).join('');
+
+            data.softwareProjects.forEach(item => modalsHTML += generateModalHTML(item, true));
+        }
+
+        // 3. Render Hardware Projects (on projects.html)
+        if (hardwareContainer && data.hardwareProjects) {
+            hardwareContainer.innerHTML = data.hardwareProjects.map(item => `
+                <article class="work__card" onclick="openModal('${item.id}')" style="cursor: pointer;">
+                    <img src="${item.image}" alt="${item.title}" class="work__img">
+                    <h3 class="work__title">${item.title}</h3>
+                    <p class="work__description">${item.description}</p>
+                    <span class="work__button">View Details <i class='bx bx-right-arrow-alt work__icon'></i></span>
+                </article>
+            `).join('');
+
+            data.hardwareProjects.forEach(item => modalsHTML += generateModalHTML(item, true));
+        }
+
+        // 4. Render Certificates
+        if (certContainer && data.certificates) {
             const limit = certContainer.dataset.limit ? parseInt(certContainer.dataset.limit) : data.certificates.length;
             const items = data.certificates.slice(0, limit);
 
@@ -70,6 +104,24 @@ async function loadPortfolioData() {
 }
 
 function generateModalHTML(item, isProject) {
+    // Determine action link: GitHub for software, LinkedIn for hardware (or fallback)
+    let actionButtonHTML = '';
+    if (isProject) {
+        if (item.github) {
+            actionButtonHTML = `
+                <div style="margin-top: 1.25rem;">
+                    <a href="${item.github}" target="_blank" rel="noopener noreferrer" class="button">GitHub Repository</a>
+                </div>
+            `;
+        } else if (item.linkedin) {
+            actionButtonHTML = `
+                <div style="margin-top: 1.25rem;">
+                    <a href="${item.linkedin}" target="_blank" rel="noopener noreferrer" class="button">View on LinkedIn</a>
+                </div>
+            `;
+        }
+    }
+
     return `
         <div class="modal" id="${item.id}">
             <div class="modal__content">
@@ -78,11 +130,7 @@ function generateModalHTML(item, isProject) {
                 <img src="${item.image}" class="modal__img" alt="${item.title}">
                 <div class="modal__body">
                     <p>${item.fullDetails}</p>
-                    ${isProject && item.github ? `
-                        <div style="margin-top: 1.25rem;">
-                            <a href="${item.github}" target="_blank" rel="noopener noreferrer" class="button">GitHub Repository</a>
-                        </div>
-                    ` : ''}
+                    ${actionButtonHTML}
                 </div>
             </div>
         </div>

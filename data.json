@@ -1,59 +1,85 @@
 {
-    "projects": [
+    "softwareProjects": [
         {
-            "id": "projModal1",
-            "title": "AI Disease Prediction System",
-            "description": "Machine learning application for predicting diseases using health data.",
-            "fullDetails": "An intelligent healthcare application that applies machine learning algorithms to analyze patient symptoms and predict possible diseases.",
-            "image": "assets/img/ai-disease.png",
-            "github": "https://github.com/Hassamuddin7/AI-Disease-Prediction-System"
-        },
-        {
-            "id": "projModal2",
-            "title": "Jarvis Voice Assistant",
-            "description": "Python-based desktop voice assistant for automation and task handling.",
-            "fullDetails": "A Python desktop voice assistant capable of executing voice commands, opening applications, searching the web, and automating desktop tasks.",
-            "image": "assets/img/jarvis.png",
-            "github": "https://github.com/Hassamuddin7/Jarvis-Voice-Assistant"
-        },
-        {
-            "id": "projModal3",
-            "title": "School Management System",
-            "description": "Desktop application for managing student records and administration.",
-            "fullDetails": "A desktop application developed to organize student records, academic information, and administrative operations.",
-            "image": "assets/img/school-management.png",
-            "github": "https://github.com/Hassamuddin7/School-Management-System"
-        },
-        {
-            "id": "projModal4",
-            "title": "Environmental Sound Recognition",
-            "description": "FYP: AI sound recognition system assisting hearing-impaired users.",
-            "fullDetails": "Final Year Project focused on recognizing environmental sounds using AI and machine learning to assist hearing-impaired users.",
-            "image": "assets/img/environmental-sound.png",
-            "github": ""
-        },
-        {
-            "id": "projModal5",
+            "id": "project-1",
             "title": "Smart Voting System",
-            "description": "A secure and efficient system designed for reliable, transparent election management.",
-            "fullDetails": "An automated smart voting system developed to ensure secure, transparent, and streamlined voting operations. Features include user authentication, duplicate vote prevention, and real-time result tabulation.",
+            "description": "A secure desktop application featuring administrative controls, voter authentication, and real-time result reporting.",
+            "fullDetails": "A desktop-based smart voting system built with Python, SQLite, and Tkinter, featuring secure voter authentication, admin controls, and real-time tallying.",
             "image": "assets/img/smart-voting-system.png",
-            "github": "https://github.com/Hassamuddin7/SMART-VOTING-SYSTEM"
+            "github": "https://github.com/Hassamuddin7/smart-voting-system"
+        },
+        {
+            "id": "project-2",
+            "title": "School Management System",
+            "description": "A comprehensive database management application for student enrollment, attendance tracking, and grade reports.",
+            "fullDetails": "A comprehensive database management application built to handle student enrollment records, attendance tracking, and automated grade reports.",
+            "image": "assets/img/school-management.png",
+            "github": "https://github.com/Hassamuddin7"
+        },
+        {
+            "id": "project-3",
+            "title": "AI Disease Detector",
+            "description": "An intelligent predictive model built using machine learning to classify health data and detect potential conditions.",
+            "image": "assets/img/ai-disease.png",
+            "fullDetails": "An intelligent predictive model built using Python, Scikit-learn, and machine learning algorithms to process medical data and classify health indicators.",
+            "github": "https://github.com/Hassamuddin7"
+        },
+        {
+            "id": "project-4",
+            "title": "JARVIS Voice Assistant",
+            "description": "A virtual desktop assistant that automates daily computing tasks using speech recognition and natural language processing.",
+            "fullDetails": "A virtual desktop assistant that automates daily computer operations using Python speech recognition libraries and system automation scripts.",
+            "image": "assets/img/jarvis.png",
+            "github": "https://github.com/Hassamuddin7"
+        }
+    ],
+    "hardwareProjects": [
+        {
+            "id": "hardware-1",
+            "title": "Virtual Scene Rendering for Deaf & Dumb People Using AI-Based Audio Analysis",
+            "description": "An assistive edge-AI system using audio feature extraction and machine learning to analyze sound hazards.",
+            "fullDetails": "Engineered an assistive edge-AI system on Raspberry Pi using audio feature extraction (MFCC) and a Random Forest classification model to detect environmental sound hazards and assist hearing-impaired users.",
+            "image": "assets/img/virtual-scene-rendering.png",
+            "linkedin": "https://www.linkedin.com/in/hassamuddin7/details/projects/"
+        },
+        {
+            "id": "hardware-2",
+            "title": "Digital FM Broadcast Receiver Using MATLAB Simulink & RTL-SDR",
+            "description": "Designed, simulated, and evaluated a complete digital FM radio broadcast receiver prototype.",
+            "fullDetails": "Designed, simulated, and evaluated a complete digital FM broadcast receiver model utilizing MATLAB Simulink and an RTL-SDR dongle for communication systems signal processing.",
+            "image": "assets/img/digital-fm-receiver.png",
+            "linkedin": "https://www.linkedin.com/in/hassamuddin7/details/projects/"
+        },
+        {
+            "id": "hardware-3",
+            "title": "Li-Fi Based Wireless Audio Transmission System",
+            "description": "Designed and implemented an optical wireless audio link transmitting sound signals using a laser transmitter.",
+            "fullDetails": "Designed and implemented an optical communication project incorporating a laser diode transmitter and solar panel receiver to transmit audio wirelessly through free space.",
+            "image": "assets/img/lifi-audio-transmission.png",
+            "linkedin": "https://www.linkedin.com/in/hassamuddin7/details/projects/"
+        },
+        {
+            "id": "hardware-4",
+            "title": "Arduino Closed-Loop PID Temperature Control System",
+            "description": "Implemented a closed-loop thermal regulation system on an Arduino microcontroller utilizing classical PID control algorithms.",
+            "fullDetails": "Developed for the Linear Control Systems Course at SSUET (Feb 2026 – June 2026). Implemented a closed-loop thermal regulation system on an Arduino microcontroller utilizing classical PID control algorithms. Key Technical Contributions: - Calibrated temperature sensor inputs and managed heating element power switching via Pulse Width Modulation (PWM) drivers. - Experimentally tuned proportional (Kp), integral (Ki), and derivative (Kd) gains to eliminate steady-state error and optimize transient response under dynamic thermal loads.",
+            "image": "assets/img/arduino-pid.png",
+            "linkedin": "https://www.linkedin.com/in/hassamuddin7/details/projects/"
         }
     ],
     "certificates": [
         {
-            "id": "certModal1",
+            "id": "cert-1",
             "title": "Accenture Data Analytics & Visualization",
-            "description": "Forage Virtual Experience Program covering data analytics and insights.",
-            "fullDetails": "Completed the Accenture Data Analytics & Visualization Virtual Experience Program through Forage, focusing on practical business analytics, data visualization, storytelling, and data-driven decision-making.",
+            "description": "Job simulation focused on data cleaning, modeling, and insights presentation.",
+            "fullDetails": "Successfully completed the Accenture North America Data Analytics and Visualization job simulation, gaining practical experience in data cleaning, data modeling, and communicating actionable insights.",
             "image": "assets/img/certificate1.png"
         },
         {
-            "id": "certModal2",
-            "title": "HP LIFE – Data Science & Analytics",
-            "description": "Practical training in data science fundamentals and analytics.",
-            "fullDetails": "Successfully completed the HP LIFE Data Science & Analytics course, covering data analysis, visualization, business insights, and the fundamentals of data-driven decision-making.",
+            "id": "cert-2",
+            "title": "HP LIFE Data Science & Analytics",
+            "description": "Professional training on data analysis, visualization, and interpreting data-driven insights.",
+            "fullDetails": "Completed the HP LIFE Data Science and Analytics certification course, covering fundamental data concepts, analysis techniques, and transforming raw data into actionable visual insights.",
             "image": "assets/img/certificate2.png"
         }
     ]
