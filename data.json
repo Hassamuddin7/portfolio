@@ -81,6 +81,70 @@
             "description": "Professional training on data analysis, visualization, and interpreting data-driven insights.",
             "fullDetails": "Completed the HP LIFE Data Science and Analytics certification course, covering fundamental data concepts, analysis techniques, and transforming raw data into actionable visual insights.",
             "image": "assets/img/certificate2.png"
+        },
+        {
+            "id": "cert-3",
+            "title": "Certificate of Appreciation - Inhouse Project Exhibition 2024",
+            "issuer": "Electronic Engineering Department, SSUET",
+            "description": "Awarded for participating with the project 'Smart Street Light and Security System' in July 2024.",
+            "fullDetails": "Awarded by the Electronic Engineering Department at SSUET for participating in the Inhouse Project Exhibition 2024 with the 'Smart Street Light and Security System' project.",
+            "image": "assets/img/certificate3.png"
+        },
+        {
+            "id": "cert-4",
+            "title": "Certificate of Appreciation - SPEC Fall 2025",
+            "issuer": "Electronic Engineering Department, SSUET",
+            "description": "Awarded for participating in the Semester Project Exhibition & Competition held on January 27th, 2026.",
+            "fullDetails": "Official certificate of appreciation awarded by the Electronic Engineering Department, SSUET, signed by Prof. Dr. M. Tahir Qadri and Dr. Noman Ahmed Siddiqui for participating in SPEC Fall 2025.",
+            "image": "assets/img/certificate4.png"
+        },
+        {
+            "id": "cert-5",
+            "title": "Certificate of Appreciation - SPEC Fall 2025 (Duplicate Copy)",
+            "issuer": "Electronic Engineering Department, SSUET",
+            "description": "Awarded for participating in the Semester Project Exhibition & Competition held on January 27th, 2026.",
+            "fullDetails": "Additional copy of the official certificate of appreciation awarded for participating in the Semester Project Exhibition & Competition (SPEC Fall 2025) at SSUET.",
+            "image": "assets/img/certificate5.png"
+        },
+        {
+            "id": "cert-6",
+            "title": "Certificate of Participation - LinkedIn Success Unlocked",
+            "issuer": "Google Developer Groups On Campus SSUET",
+            "description": "Recognition for outstanding participation in the professional networking and career development workshop.",
+            "fullDetails": "Awarded by GDGOC-SSUET for outstanding participation and engagement in the 'LinkedIn Success Unlocked' professional development event.",
+            "image": "assets/img/certificate6.png"
+        },
+        {
+            "id": "cert-7",
+            "title": "Cloud and Cybersecurity Professional Certificate",
+            "issuer": "KAMK University & Microsoft Skills for Jobs",
+            "description": "Comprehensive micro-degree program covering 324 hours of training and 12 ECTS credits.",
+            "fullDetails": "Successfully completed the rigorous Cloud and Cybersecurity Professional Certificate micro-degree program by Microsoft Skills for Jobs and KAMK University, encompassing 324 hours of training and 12 ECTS credits.",
+            "image": "assets/img/certificate7.png"
+        },
+        {
+            "id": "cert-8",
+            "title": "Elements of Cloud and Cybersecurity Certificate",
+            "issuer": "KAMK University & Microsoft Skills for Jobs",
+            "description": "Foundational course completion covering 54 hours of training and 2 ECTS credits.",
+            "fullDetails": "Completed the Elements of Cloud and Cybersecurity course under the Microsoft Skills for Jobs and KAMK University microdegree program, attending 54 hours of training and earning 2 ECTS credits.",
+            "image": "assets/img/certificate8.png"
+        },
+        {
+            "id": "cert-9",
+            "title": "Certificate of Participation - Robofest 2024",
+            "issuer": "Salim Habib University",
+            "description": "Participated in SHU Robofest 2024 showcasing robotics and hardware engineering integration.",
+            "fullDetails": "Official certificate of participation presented by the Faculty of Engineering at Salim Habib University for competing in SHU Robofest 2024 on November 13, 2024.",
+            "image": "assets/img/certificate9.png"
+        },
+        {
+            "id": "cert-10",
+            "title": "Software Engineering Lite Job Simulation",
+            "issuer": "JPMorgan Chase & Co. (Forage)",
+            "description": "Completed practical tasks in system modification and unit testing.",
+            "fullDetails": "Successfully completed practical tasks in modifying an existing system and performing unit testing during the JPMorgan Chase & Co. Software Engineering Lite Job Simulation on August 29th, 2024.",
+            "image": "assets/img/certificate10.png"
         }
     ]
 }
